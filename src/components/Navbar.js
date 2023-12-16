@@ -25,7 +25,7 @@ const Navbar = () => {
       <Container>
         <Flex className="lg:flex">
           <div className="lg:w-3/12 text-2xl font-bold">
-            <h1>OREBY</h1>
+            <h1>OREBI</h1>
           </div>
 
           <div className="lg:w-9/12 w-full">
