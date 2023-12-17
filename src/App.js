@@ -2,6 +2,7 @@ import * as React from "react";
 import { createRoot } from "react-dom/client";
 import RootLayout from "./components/RootLayout";
 import Home from "./pages/Home";
+import Shop from "./pages/Shop";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -18,6 +19,10 @@ let router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/Shop",
+        element: <Shop />,
       },
     ],
   },
