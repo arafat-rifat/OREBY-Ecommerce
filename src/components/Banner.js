@@ -107,13 +107,13 @@ const Banner = () => {
 
         <Link to="#">
           <div>
-            <img src="assets/banner3.jpg" />
+            <img src="assets/banner4.jpg" />
           </div>
         </Link>
 
         <Link to="#">
           <div>
-            <img src="assets/banner3.jpg" />
+            <img src="assets/banner5.jpg" />
           </div>
         </Link>
       </Slider>

@@ -1,15 +1,8 @@
 import * as React from "react";
-import { createRoot } from "react-dom/client";
 import RootLayout from "./components/RootLayout";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-  createRoutesFromElements,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 let router = createBrowserRouter([
   {
@@ -21,7 +14,7 @@ let router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/Shop",
+        path: "/product",
         element: <Shop />,
       },
     ],
