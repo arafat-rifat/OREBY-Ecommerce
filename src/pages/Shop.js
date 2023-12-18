@@ -13,7 +13,7 @@ const Shop = () => {
 
       <Flex className="flex gap-x-10">
         <div className="w-[25%] bg-red-500">ADFA</div>
-        <div className="w-[75%] ">
+        <div className="w-[75%] relative">
           <Pagination itemsPerPage={12} />
         </div>
       </Flex>
